@@ -1,11 +1,14 @@
 # The Qs — Home Network Notes
 
+Why "Q": the C: drive was taken, so Claude is spelled with a Q (sounds the same).
+The Q: drive started on Boss and is moving to Mini — small, quiet, low power, can run 24/7.
+
 Subnet: `192.168.40.x` (machines from `.103` up, reserved in the router)
 
 | Name | IP | Role | Status |
 |---|---|---|---|
 | **Boss** | 192.168.40.103 | Main work computer. Main repository lives on its mapped `Q:` drive. Voice features being set up here. | Active |
-| **Mini** (hostname `HPmini1`) | ? | Future 24/7 server, file server, overnight worker. Will host the Q share as `\\HPmini1\Q`. | Being configured |
+| **Mini** (hostname `HPmini1`) | probably .104–.107 | Future 24/7 server, file server, overnight worker. Will host the Q share as `\\HPmini1\Q`. | Being configured |
 | **Boss 2** | ? | Spoke through its speaker in an earlier session. | Off — not needed now |
 | **Linux machine** | ? | Older Linux install. Already uses the Q share. | Partly broken — separate project |
 | *(fifth machine)* | ? | ? | ? |
@@ -15,6 +18,12 @@ Subnet: `192.168.40.x` (machines from `.103` up, reserved in the router)
 - Windows: mapped as `Q:`
 - Network path (planned): `\\HPmini1\Q`
 - Move from Boss to Mini: in progress
+
+## Tomorrow — easy starters
+
+- [ ] On Mini: open Command Prompt, type `ipconfig`, note the IPv4 address
+- [ ] On Boss: open Claude Desktop → Code tab → pick the folder on `Q:`
+- [ ] Tell Claude whether the Q: folder is a Git repository
 
 ## To do
 
